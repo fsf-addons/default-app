@@ -1,0 +1,17 @@
+{
+  "name": "sample",
+  "description": "",
+  "main": "client/app.js",
+  "authors": [
+    "Anonymous <email@domain>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
