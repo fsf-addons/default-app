@@ -31,6 +31,8 @@
         <div ng-if="main.isOpen(main.pageType.REUSE)"
              ng-include=" '/app/02-reuse-code/math.html' "></div>
 
+        <div ng-if="main.isOpen(main.pageType.SHARE_DATA)"
+             ng-include=" '/app/03-share-data/chat.html' "></div>
     </div>
 
 </div>
@@ -46,6 +48,10 @@
 <script type="text/javascript" src="/app/main.controller.js"></script>
 <script type="text/javascript" src="/app/01-simple-service/simple.service.js"></script>
 <script type="text/javascript" src="/app/02-reuse-code/math.service.js"></script>
+<script type="text/javascript" src="/app/02-reuse-code/math.controller.js"></script>
+<script type="text/javascript" src="/app/03-share-data/chat.controller.js"></script>
+<script type="text/javascript" src="/app/03-share-data/second.controller.js"></script>
+<script type="text/javascript" src="/app/03-share-data/chat.service.js"></script>
 <!--CUSTOM_JS_END-->
 </body>
 </html>

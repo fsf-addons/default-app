@@ -1,9 +1,9 @@
 (function () {
     angular
         .module("sample")
-        .controller("FirstCtrl", [FirstCtrl]);
+        .controller("SecondCtrl", [SecondCtrl]);
 
-    function FirstCtrl() {
+    function SecondCtrl() {
         var self = this;
 
         var messages = [];
@@ -15,6 +15,6 @@
         self.addMessage = function () {
             messages.push(self.message);
             self.message = "";
-        };
+        }
     }
 })();
