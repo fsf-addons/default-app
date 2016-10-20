@@ -1,0 +1,27 @@
+<ul class="nav nav-pills nav-stacked">
+    <li data-ng-class="{ 'active' : main.isOpen(main.pageType.SIMPLE_SERVICE)}">
+        <a data-ng-click="main.open(main.pageType.SIMPLE_SERVICE)">
+            1. Simple Service
+        </a>
+    </li>
+    <li data-ng-class="{ 'active' : main.isOpen(main.pageType.REUSE)}">
+        <a data-ng-click="main.open(main.pageType.REUSE)">
+            2. Reuse Code
+        </a>
+    </li>
+    <li data-ng-class="{ 'active' : main.isOpen(main.pageType.SHARE_DATA)}">
+        <a data-ng-click="main.open(main.pageType.SHARE_DATA)">
+            3. Share Data
+        </a>
+    </li>
+    <li data-ng-class="{ 'active' : main.isOpen(main.pageType.RETURN_CALLBACK)}">
+        <a data-ng-click="main.open(main.pageType.RETURN_CALLBACK)">
+            4. Return using Callback
+        </a>
+    </li>
+    <li data-ng-class="{ 'active' : main.isOpen(main.pageType.RETURN_PROMISE)}">
+        <a data-ng-click="main.open(main.pageType.RETURN_PROMISE)">
+            5. Return using Promise
+        </a>
+    </li>
+</ul>
